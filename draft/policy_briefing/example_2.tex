@@ -1,10 +1,10 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  oneside,
-  open=any]{scrbook}
+]{article}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -36,7 +36,7 @@
 \makeatother
 \usepackage{xcolor}
 \setlength{\emergencystretch}{3em} % prevent overfull lines
-\setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 % Make \paragraph and \subparagraph free-standing
 \ifx\paragraph\undefined\else
   \let\oldparagraph\paragraph
@@ -95,9 +95,6 @@
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
-% delete. this is for the example w CZ diacritics
-\usepackage{babel}
-\babelprovide[import]{czech}
 \makeatletter
 \makeatother
 \makeatletter
@@ -155,10 +152,7 @@
 \usepackage{calc}
 \usepackage{calculator}
 
-\usepackage{graphicx}
-\usepackage{wallpaper}
 
-\usepackage{geometry}
 
 \usepackage{graphicx}
 \usepackage{geometry}
@@ -178,10 +172,6 @@
 
 
 % Set the coverpage font families
-\usepackage{fontspec}
-\newfontfamily{\coverpagetitlefont}{QTAgateType.otf}
-\usepackage{fontspec}
-\newfontfamily{\coverpagefooterfont}{QTDublinIrish.otf}
 
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
@@ -190,68 +180,22 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={A Sample Title - The SocioEconomic Aspects of Stock Assessments},
-  pdfauthor={Jane Doe; Eva Nováková; Matti Meikäläinen; Ashok Kumar},
-  hidelinks,
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
   pdfcreator={LaTeX via pandoc}}
 
-\title{A Sample Title - The SocioEconomic Aspects of Stock Assessments}
-\usepackage{etoolbox}
-\makeatletter
-\providecommand{\subtitle}[1]{% add subtitle to \maketitle
-  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
-}
-\makeatother
-\subtitle{with non-English diacritics in the author names. See
-documentation.}
-\author{Jane Doe \and Eva Nováková \and Matti Meikäläinen \and Ashok
-Kumar}
+\author{}
 \date{}
 
 \begin{document}
 %%%%% begin titlepage extension code
 
-  \begin{frontmatter}
 
 \begin{titlepage}
-% This is a combination of Pandoc templating and LaTeX
-% Pandoc templating https://pandoc.org/MANUAL.html#templates
-% See the README for help
 
-\thispagestyle{empty}
-
-\newgeometry{top=-100in}
-
-% Page color
-\definecolor{pgcolor}{HTML}{FFFFFF}
-\pagecolor{pgcolor}\afterpage{\nopagecolor}
-
-\newcommand{\coverauthorstyle}[1]{{#1}}
-
-\begin{tikzpicture}[remember picture, overlay, inner sep=0pt, outer sep=0pt]
-
-\tikzfading[name=fadeout, inner color=transparent!0,outer color=transparent!100]
-\tikzfading[name=fadein, inner color=transparent!100,outer color=transparent!0]
-\node[ scope fading=north, anchor=south west, rotate=0.0, opacity=1.0] at ($(current page.south west)+(0.0, 0.0)$) {
-\includegraphics[width=\paperwidth, keepaspectratio]{img/bridge.jpeg}};
-
-% Title
-\newcommand{\titlelocationleft}{0.8\paperwidth}
-\newcommand{\titlelocationbottom}{10in}
-\newcommand{\titlealign}{right}
-
-\begin{scope}{%
-\fontsize{25}{30.0}\selectfont
-\coverpagetitlefont
-\node[anchor=north
-east, align=right, rotate=0] (Title1) at ($(current page.south west)+(\titlelocationleft,\titlelocationbottom)$)  [text width = 0.7\paperwidth]  {{\nohyphens{Tourists'
-Preferences After COVID-19 Study of the UK Tourism Development}}};
-}
-\end{scope}
-
-\end{tikzpicture}
-\clearpage
-\restoregeometry
 %%% TITLE PAGE START
 
 % Set up alignment commands
@@ -265,58 +209,32 @@ Preferences After COVID-19 Study of the UK Tourism Development}}};
 
 \newcommand{\titleandsubtitle}{
 % Title and subtitle
-{{\large{\bfseries{\nohyphens{A Sample Title - The SocioEconomic Aspects
-of Stock Assessments}}}}\par
-}%
-
-\vspace{\betweentitlesubtitle}
-{
-{\large{\textit{\nohyphens{with non-English diacritics in the author
-names. See documentation.}}}}\par
-}}
+}
 \newcommand{\titlepagetitleblock}{
 \titleandsubtitle
 }
 
-\newcommand{\authorstyle}[1]{{\large{#1}}}
+\newcommand{\authorstyle}[1]{{#1}}
 
-\newcommand{\affiliationstyle}[1]{{\large{#1}}}
+\newcommand{\affiliationstyle}[1]{{#1}}
 
 \newcommand{\titlepageauthorblock}{
-{\authorstyle{\nohyphens{Jane
-Doe}{\textsuperscript{1}}\textsuperscript{,}{\textsuperscript{2}},  \nohyphens{Eva
-Nováková}{\textsuperscript{3}},  \nohyphens{Matti
-Meikäläinen}{\textsuperscript{4}}\textsuperscript{,}{\textsuperscript{*}} and \nohyphens{Ashok
-Kumar}{\textsuperscript{2}}\textsuperscript{,}{\textsuperscript{5}}}}}
+{\authorstyle{}}}
 
 \newcommand{\titlepageaffiliationblock}{
 \hangindent=1em
 \hangafter=1
 {\affiliationstyle{
-{1}.~Minnesota Department of Natural Resources,~500 Lafayette Road Saint
-Paul, MN 55155
-\par\hangindent=1em\hangafter=1{2}.~University of Minnesota,~Department
-of Mathematics
-\par\hangindent=1em\hangafter=1{3}.~Czech University of Life
-Sciences,~Družstevní 666, Vikýřovice, Czechia
-\par\hangindent=1em\hangafter=1{4}.~University of Kemijärvi,~Department
-of Biological and Environmental Science,~Kylmäniementie 79, 98120,
-KEMIJÄRVI, Finland
-\par\hangindent=1em\hangafter=1{5}.~HØnefoss Institute,~R Tradição 35,
-Portugal 2950-726
 
 
 \vspace{1\baselineskip} 
-* \textit{Correspondence:}~Matti Meikäläinen~matti@jy.fi
 }}
 }
 \newcommand{\headerstyled}{%
-{The Publisher}
+{}
 }
 \newcommand{\footerstyled}{%
-{\large{NOAA Fisheries OpenSci\\
-Tools for Open Science\\
-\url{https://github.com/nmfs-opensci}\strut \\}}
+{}
 }
 \newcommand{\datestyled}{%
 {}
@@ -334,76 +252,32 @@ Tools for Open Science\\
 }
 
 %set up blocks so user can specify order
-\newcommand{\titleblock}{\newlength{\betweentitlesubtitle}
-\setlength{\betweentitlesubtitle}{\baselineskip}
-{
+\newcommand{\titleblock}{}
 
-{\titlepagetitleblock}
-}
+\newcommand{\authorblock}{}
 
-\vspace{4\baselineskip}
-}
+\newcommand{\affiliationblock}{}
 
-\newcommand{\authorblock}{{\titlepageauthorblock}
+\newcommand{\logoblock}{}
 
-\vspace{2\baselineskip}
-}
-
-\newcommand{\affiliationblock}{{\titlepageaffiliationblock}
-
-\vspace{1pt}
-}
-
-\newcommand{\logoblock}{{\includegraphics[width=0.25\textheight]{img/logo.png}}
-
-\vspace{2\baselineskip}
-}
-
-\newcommand{\footerblock}{{\titlepagefooterblock}
-
-\vspace{1pt}
-}
+\newcommand{\footerblock}{}
 
 \newcommand{\dateblock}{}
 
-\newcommand{\headerblock}{{\titlepageheaderblock
-
-\vspace{0pt}
-}}
-\newgeometry{top=3in,bottom=1in,right=1in,left=1in}
-% background image
-\newlength{\bgimagesize}
-\setlength{\bgimagesize}{0.5\paperwidth}
-\LENGTHDIVIDE{\bgimagesize}{\paperwidth}{\theRatio} % from calculator pkg
-\ThisULCornerWallPaper{\theRatio}{img/corner-bg.png}
+\newcommand{\headerblock}{}
 
 \thispagestyle{empty} % no page numbers on titlepages
 
 
-\newcommand{\vrulecode}{\rule{\vrulewidth}{\textheight}}
-\newlength{\vrulewidth}
-\setlength{\vrulewidth}{1pt}
-\newlength{\B}
-\setlength{\B}{\ifdim\vrulewidth > 0pt 0.05\textwidth\else 0pt\fi}
 \newlength{\minipagewidth}
-\ifthenelse{\equal{left}{left} \OR \equal{left}{right} }
-{% True case
-\setlength{\minipagewidth}{\textwidth - \vrulewidth - \B - 0.1\textwidth}
-}{
-\setlength{\minipagewidth}{\textwidth - 2\vrulewidth - 2\B - 0.1\textwidth}
-}
-\ifthenelse{\equal{left}{left} \OR \equal{left}{leftright}}
-{% True case
-\raggedleft % needed for the minipage to work
-\vrulecode
-\hspace{\B}
-}{%
-\raggedright % else it is right only and width is not 0
-}
+\setlength{\minipagewidth}{\textwidth}
+\raggedright % single minipage
 % [position of box][box height][inner position]{width}
 % [s] means stretch out vertically; assuming there is a vfill
 \begin{minipage}[b][\textheight][s]{\minipagewidth}
 \titlepagepagealign
+\headerblock
+
 \titleblock
 
 \authorblock
@@ -417,33 +291,50 @@ Tools for Open Science\\
 \footerblock
 \par
 
-\end{minipage}\ifthenelse{\equal{left}{right} \OR \equal{left}{leftright} }{
+\end{minipage}\ifthenelse{\equal{}{right} \OR \equal{}{leftright} }{
 \hspace{\B}
 \vrulecode}{}
 \clearpage
-\restoregeometry
 %%% TITLE PAGE END
 \end{titlepage}
 \setcounter{page}{1}
-\end{frontmatter}
 
-%%%%% end titlepage extension code\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, interior hidden, boxrule=0pt, breakable, frame hidden, enhanced, sharp corners]}{\end{tcolorbox}}\fi
+%%%%% end titlepage extension code\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, frame hidden, boxrule=0pt, breakable, enhanced, interior hidden, sharp corners]}{\end{tcolorbox}}\fi
 
-\renewcommand*\contentsname{Table of contents}
-{
-\setcounter{tocdepth}{2}
-\tableofcontents
-}
-\listoffigures
-\listoftables
-\mainmatter
-\hypertarget{yaml-additions-for-themes}{%
-\section{YAML additions for themes}\label{yaml-additions-for-themes}}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+author: - name: Jane Doe
+
+bibliography: references.bib format: titlepage-pdf: documentclass:
+scrbook classoption: {[}``oneside'', ``open=any''{]} number-sections:
+true toc: true lof: true lot: true titlepage: ``bg-image''
+titlepage-bg-image: ``img/corner-bg.png'' titlepage-logo:
+``img/logo.png'' titlepage-header: ``The Publisher'' titlepage-footer:
+\textbar{} NOAA Fisheries OpenSci\\
+Tools for Open Science\\
+\url{https://github.com/nmfs-opensci}\strut \\
+coverpage: ``great-wave'' coverpage-bg-image: ``img/bridge.jpeg''
+coverpage-title: ``Tourists' Preferences After COVID-19 Study of the UK
+Tourism Development'' coverpage-footer: ``\,'' coverpage-theme:
+page-html-color: ``0000FF'' title-fontfamily: ``Alegreya.otf''
+title-fontsize: 20 title-align: ``right'' title-bottom: ``10in''
+header-style: ``none'' author-style: ``none'' footer-fontsize: 20
+footer-fontfamily: ``QTDublinIrish.otf'' footer-align: ``right''
+footer-bottom: ``9.5in'' date-style: ``none'' bg-image-fading: ``north''
+keep-tex: true include-in-header: text: \textbar{} \% delete. this is
+for the example w CZ diacritics
+
+\usepackage{babel}
+        \babelprovide[import]{czech}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+.{[};\#\# YAML additions for themes
 
 Some themes need some additional YAML information to work.
 
 \hypertarget{bg-image}{%
-\subsection{\texorpdfstring{\texttt{bg-image}}{bg-image}}\label{bg-image}}
+\subsubsection{\texorpdfstring{\texttt{bg-image}}{bg-image}}\label{bg-image}}
 
 Needs info on the title page geometry so the title doesn't overlap the
 background image. Also you need to supply the background image and where
@@ -467,7 +358,7 @@ format:
 \end{verbatim}
 
 \hypertarget{document-classes}{%
-\section{Document classes}\label{document-classes}}
+\subsection{Document classes}\label{document-classes}}
 
 The document class changes the look of your document. For the book
 document classes, you will need to pass in
@@ -489,7 +380,7 @@ classoption: ["oneside", "open=any"]
 \end{verbatim}
 
 \hypertarget{introduction}{%
-\chapter{Introduction}\label{introduction}}
+\section{Introduction}\label{introduction}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempor
 velit. Fusce accumsan ultrices fringilla. Praesent sed odio mi. Mauris
@@ -520,7 +411,7 @@ commodo consequat.\\
 \end{quote}
 
 \hypertarget{supporting-theory}{%
-\section{Supporting theory}\label{supporting-theory}}
+\subsection{Supporting theory}\label{supporting-theory}}
 
 Let \(X_1, X_2, \ldots, X_n\) be a sequence of independent and
 identically distributed random variables with \(\text{E}[X_i] = \mu\)
@@ -537,7 +428,7 @@ variables \(\sqrt{n}(S_n - \mu)\) converge in distribution to a normal
 Equation~\ref{eq-clt}.
 
 \hypertarget{materials-and-methods}{%
-\chapter{Materials and Methods}\label{materials-and-methods}}
+\section{Materials and Methods}\label{materials-and-methods}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus neque
 ex, vehicula dictum risus fermentum, feugiat faucibus neque. Etiam purus
@@ -546,7 +437,7 @@ primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed
 bibendum placerat tellus, ac finibus lectus euismod eget.
 
 \hypertarget{study-area}{%
-\section{Study area}\label{study-area}}
+\subsection{Study area}\label{study-area}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus neque
 ex, vehicula dictum risus fermentum, feugiat faucibus neque. Etiam purus
@@ -582,7 +473,7 @@ amet tincidunt elit. Cras mollis non ante sed venenatis. In ultricies
 ante accumsan lectus rhoncus, vel pharetra sem convallis.
 
 \hypertarget{results}{%
-\chapter{Results}\label{results}}
+\section{Results}\label{results}}
 
 See Table~\ref{tbl-numbers} for the table of results. Phasellus quis
 orci nec erat suscipit imperdiet. Aenean pulvinar enim ut ante
@@ -613,10 +504,10 @@ D 99 & 24 \\
 \end{longtable}
 
 \hypertarget{discussion}{%
-\chapter{Discussion}\label{discussion}}
+\section{Discussion}\label{discussion}}
 
 Lorem ipsum dolor sit amet, Table~\ref{tbl-numbers}, consectetur
-adipiscing elit. Knuth (1984) and all things LaTeX. Phasellus neque ex,
+adipiscing elit. @knuth84 and all things LaTeX. Phasellus neque ex,
 vehicula dictum risus fermentum, feugiat faucibus neque. Etiam purus
 quam, lacinia vel porta in, malesuada ac nisl. Vestibulum ante ipsum
 primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed
@@ -665,7 +556,7 @@ purus, eget dapibus diam libero vitae lorem. Nam blandit pulvinar augue,
 non gravida risus rhoncus sed.
 
 \hypertarget{conclusion}{%
-\chapter{Conclusion}\label{conclusion}}
+\section{Conclusion}\label{conclusion}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus neque
 ex, vehicula dictum risus fermentum, feugiat faucibus neque. Etiam purus
@@ -716,28 +607,23 @@ purus, eget dapibus diam libero vitae lorem. Nam blandit pulvinar augue,
 non gravida risus rhoncus sed.
 
 \hypertarget{author-contributions}{%
-\chapter{Author Contributions}\label{author-contributions}}
+\section{Author Contributions}\label{author-contributions}}
 
 Author1 designed the research. Author2 carried out all simulations,
 analyzed the data. Author1 and Author2 wrote the article.
 
 \hypertarget{acknowledgments}{%
-\chapter{Acknowledgments}\label{acknowledgments}}
+\section{Acknowledgments}\label{acknowledgments}}
 
 We thank G. Harrison, B. Harper, and J. Doe for their help.
 
 \hypertarget{references}{%
-\chapter{References}\label{references}}
+\section{References}\label{references}}
 
 \hypertarget{refs}{}
-\begin{CSLReferences}{1}{0}
-\leavevmode\vadjust pre{\hypertarget{ref-knuth84}{}}%
-Knuth, Donald E. 1984. {``Literate Programming.''} \emph{Comput. J.} 27
-(2): 97--111. \url{https://doi.org/10.1093/comjnl/27.2.97}.
-
+\begin{CSLReferences}{0}{0}
 \end{CSLReferences}
 
 
-\backmatter
 
 \end{document}

@@ -6,12 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Jane Doe">
-<meta name="author" content="Eva Nováková">
-<meta name="author" content="Matti Meikäläinen">
-<meta name="author" content="Ashok Kumar">
 
-<title>A Sample Title - The SocioEconomic Aspects of Stock Assessments</title>
+<title>example_2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,69 +63,15 @@ div.csl-indent {
 
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">A Sample Title - The SocioEconomic Aspects of Stock Assessments</h1>
-<p class="subtitle lead">with non-English diacritics in the author names. See documentation.</p>
-</div>
 
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Authors</div>
-  <div class="quarto-title-meta-heading">Affiliations</div>
-  
-    <div class="quarto-title-meta-contents">
-    Jane Doe 
-  </div>
-    <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Minnesota Department of Natural Resources
-          </p>
-        <p class="affiliation">
-            University of Minnesota
-          </p>
-      </div>
-      <div class="quarto-title-meta-contents">
-    Eva Nováková 
-  </div>
-    <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Czech University of Life Sciences
-          </p>
-      </div>
-      <div class="quarto-title-meta-contents">
-    Matti Meikäläinen 
-  </div>
-    <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            University of Kemijärvi
-          </p>
-      </div>
-      <div class="quarto-title-meta-contents">
-    Ashok Kumar 
-  </div>
-    <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            University of Minnesota
-          </p>
-        <p class="affiliation">
-            HØnefoss Institute
-          </p>
-      </div>
-    </div>
-
-<div class="quarto-title-meta">
-
-      
-  
-    
-  </div>
-  
-
-</header>
-
-<section id="yaml-additions-for-themes" class="level2">
-<h2 class="anchored" data-anchor-id="yaml-additions-for-themes">YAML additions for themes</h2>
+<hr>
+bibliography: references.bib format: titlepage-pdf: documentclass: scrbook classoption: [“oneside”, “open=any”] number-sections: true toc: true lof: true lot: true titlepage: “bg-image” titlepage-bg-image: “img/corner-bg.png” titlepage-logo: “img/logo.png” titlepage-header: “The Publisher” titlepage-footer: | NOAA Fisheries OpenSci<br>
+Tools for Open Science<br>
+<a href="https://github.com/nmfs-opensci">https://github.com/nmfs-opensci</a><br>
+coverpage: “great-wave” coverpage-bg-image: “img/bridge.jpeg” coverpage-title: “Tourists’ Preferences After COVID-19 Study of the UK Tourism Development” coverpage-footer: “” coverpage-theme: page-html-color: “0000FF” title-fontfamily: “Alegreya.otf” title-fontsize: 20 title-align: “right” title-bottom: “10in” header-style: “none” author-style: “none” footer-fontsize: 20 footer-fontfamily: “QTDublinIrish.otf” footer-align: “right” footer-bottom: “9.5in” date-style: “none” bg-image-fading: “north” keep-tex: true include-in-header: text: | % delete. this is for the example w CZ diacritics
+<hr>
+<p>.[;## YAML additions for themes</p>
 <p>Some themes need some additional YAML information to work.</p>
 <section id="bg-image" class="level3">
 <h3 class="anchored" data-anchor-id="bg-image"><code>bg-image</code></h3>
@@ -146,7 +88,6 @@ div.csl-indent {
     titlepage-theme:
       bg-image-location: "UL"
       bg-image-size: 0.5</code></pre>
-</section>
 </section>
 <section id="document-classes" class="level2">
 <h2 class="anchored" data-anchor-id="document-classes">Document classes</h2>
@@ -226,7 +167,7 @@ S_n = \frac{X_1 + X_2 + \cdots + X_n}{n}
 </section>
 <section id="discussion" class="level1">
 <h1>Discussion</h1>
-<p>Lorem ipsum dolor sit amet, <a href="#tbl-numbers">Table&nbsp;1</a>, consectetur adipiscing elit. <span class="citation" data-cites="knuth84">Knuth (<a href="#ref-knuth84" role="doc-biblioref">1984</a>)</span> and all things LaTeX. Phasellus neque ex, vehicula dictum risus fermentum, feugiat faucibus neque. Etiam purus quam, lacinia vel porta in, malesuada ac nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed bibendum placerat tellus, ac finibus lectus euismod eget. Nulla mattis diam vitae bibendum consequat. Etiam vitae eros tristique, porta sapien a, aliquet mauris. Praesent ultricies mi nulla, et dignissim nulla mattis at. Fusce rhoncus leo quis odio euismod, hendrerit facilisis risus tincidunt. Aenean at lectus justo. Cras fringilla lacus nisl, ac convallis odio tincidunt vel. Integer vel egestas nisi. Curabitur vitae imperdiet justo.</p>
+<p>Lorem ipsum dolor sit amet, <a href="#tbl-numbers">Table&nbsp;1</a>, consectetur adipiscing elit. <span class="citation" data-cites="knuth84">@knuth84</span> and all things LaTeX. Phasellus neque ex, vehicula dictum risus fermentum, feugiat faucibus neque. Etiam purus quam, lacinia vel porta in, malesuada ac nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed bibendum placerat tellus, ac finibus lectus euismod eget. Nulla mattis diam vitae bibendum consequat. Etiam vitae eros tristique, porta sapien a, aliquet mauris. Praesent ultricies mi nulla, et dignissim nulla mattis at. Fusce rhoncus leo quis odio euismod, hendrerit facilisis risus tincidunt. Aenean at lectus justo. Cras fringilla lacus nisl, ac convallis odio tincidunt vel. Integer vel egestas nisi. Curabitur vitae imperdiet justo.</p>
 <p>Curabitur efficitur in risus quis egestas. Suspendisse porta interdum leo ac ultricies. Pellentesque bibendum, felis vitae fermentum eleifend, nunc nunc fermentum nisi, ac maximus felis lacus lobortis risus. Suspendisse potenti. Nunc vitae consequat elit. Fusce id ligula sed lectus condimentum laoreet. Vestibulum faucibus commodo suscipit. Nulla tempor tellus vel massa efficitur euismod. Duis nec commodo mauris, sit amet tincidunt elit. Cras mollis non ante sed venenatis. In ultricies ante accumsan lectus rhoncus, vel pharetra sem convallis.</p>
 <p>Phasellus quis orci nec erat suscipit imperdiet. Aenean pulvinar enim ut ante convallis, vel sollicitudin purus malesuada. Sed sed ullamcorper urna. Morbi sed lobortis neque, sit amet hendrerit magna. Donec ultricies pretium lorem, eget sagittis metus posuere et. Aenean ex purus, aliquam sit amet tellus ut, pellentesque porttitor orci. Integer quis mi pharetra, bibendum neque nec, viverra nulla. Cras quis magna in erat facilisis consequat. Vivamus sed lectus iaculis, euismod ligula eu, fermentum sem.</p>
 <p>Quisque congue, ligula et mattis vulputate, arcu risus facilisis mauris, a feugiat mi mi et magna. Aliquam id malesuada neque. Sed dapibus justo mauris, sed mattis nibh sodales sit amet. Donec nec faucibus magna. Curabitur tincidunt porta egestas. In eleifend sed enim ac varius. Vivamus tempus ultrices vehicula. Vestibulum iaculis eleifend mattis. Quisque euismod dui et velit facilisis dapibus. Ut in mauris porttitor, congue orci et, sodales turpis. Pellentesque porttitor volutpat sapien vel pretium.</p>
@@ -250,10 +191,8 @@ S_n = \frac{X_1 + X_2 + \cdots + X_n}{n}
 </section>
 <section id="references" class="level1">
 <h1>References</h1>
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-knuth84" class="csl-entry" role="doc-biblioentry">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
-</div>
+<div id="refs" role="doc-bibliography">
+
 </div>
 </section>
 
