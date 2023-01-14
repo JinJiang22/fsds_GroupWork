@@ -24,7 +24,11 @@ Globally, the accommodation sharing sector is severely suffered from COVID-19 wi
 ## Conclusion
 ### Summary of our result 
 ### Policy Suggestion 
-
+When planning or establishing future London tourism plan policy, do not consider the outbreak of COVID-19 as a crisis in the tourism industry, but as an opportunity to develop resilient and sustainable tourism policies. The reason is that there is a high possibility that people around the world will be exposed to infectious diseases other than Covid-19 in the future. Also, from current UK government want to develop secondary destinations to spread the economic benefits whilst easing pressure on ‘honeypot’ attractions. We will propose tourism polices that take advantage of outskirts of London and open green spaces.  >> reference from uk https://www.visitbritain.org/sites/default/files/vb-corporate/sustainability_external_-_14th_oct.pdf
+First, from a sustainability point of view, attraction tourism using natural area outside London should be developed. This will be a good option for balanced regional development and epidemic control. It should be constructed in an unpopulated outlying area. For example, to create a British royal horseback riding experience center in a natural area in London outskirts.  >>reference from OECD https://www.oecd.org/coronavirus/policy-responses/rebuilding-tourism-for-the-future-covid-19-policy-responses-and-recovery-bced9859/
+Second, promote green open spaces in relation to large-scale events, such as the 2024 Paris Olympic. The City of London can collaboration with the city of Paris. Then both cities can promote safe and environmentally friendly travel through green and open space through two iconic parks (Tuileries Gardens and Hyde Park). >> reference from US 
+https://www.commerce.gov/sites/default/files/2022-06/National-Travel-Tourism-Strategy.pdf
+These policies will strengthen the resilience of the London city’s tourism economy and better prepare it for future hazards. It will also consider how to encourage the dispersal of tourists and distribute the economic benefits of tourism all religions in London, including outskirts boroughs.
 
 ## References
 Department for Digital, Culture, Media & Sport (2021). The Tourism Recovery Plan, pp.17.Avaliable at https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/992974/Tourism_Recovery_Plan__Web_Accessible_.pdf (AccessesL 12 Janurary 2023).
