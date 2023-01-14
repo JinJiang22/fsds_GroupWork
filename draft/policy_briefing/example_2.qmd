@@ -1,29 +1,5 @@
 ---
-title: A Sample Title - The SocioEconomic Aspects of Stock Assessments
-subtitle: with non-English diacritics in the author names. See documentation.
-author:
-  - name: Jane Doe
-    affiliations:
-      - name: Minnesota Department of Natural Resources
-        address: 500 Lafayette Road Saint Paul, MN 55155
-      - name: University of Minnesota
-        department: Department of Mathematics
-  - name: Eva Nováková
-    affiliations:
-      - name: Czech University of Life Sciences
-        address: Družstevní 666, Vikýřovice, Czechia
-  - name: Matti Meikäläinen
-    email: matti@jy.fi
-    affiliations:
-      - name: University of Kemijärvi
-        department: Department of Biological and Environmental Science
-        address: Kylmäniementie 79, 98120, KEMIJÄRVI, Finland
-  - name: Ashok Kumar
-    affiliations:
-      - name: University of Minnesota
-        department: Department of Mathematics
-      - name: HØnefoss Institute
-        address: R Tradição 35, Portugal 2950-726
+
 bibliography: references.bib
 format: 
   titlepage-pdf:
@@ -68,7 +44,8 @@ format:
 ---
 
 
-## YAML additions for themes
+
+\.[;## YAML additions for themes
 
 Some themes need some additional YAML information to work.
 
