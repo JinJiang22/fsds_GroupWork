@@ -1,4 +1,5 @@
 ---
+
 bibliography: references.bib
 format: 
   titlepage-pdf:
@@ -17,6 +18,26 @@ format:
       Tools for Open Science\
       [https://github.com/nmfs-opensci](https://github.com/nmfs-opensci)\
     coverpage: "great-wave"
+<<<<<<< HEAD
+=======
+    coverpage-bg-image: "img/bridge.jpeg"
+    coverpage-title: "Tourists’ Preferences After COVID-19     Study of the UK Tourism Development "
+    coverpage-footer: ""
+    coverpage-theme:
+    page-html-color: "0000FF"
+    title-fontfamily: "Alegreya.otf"
+    title-fontsize: 20
+    title-align: "right"
+    title-bottom: "10in"
+    header-style: "none"
+    author-style: "none"
+    footer-fontsize: 20
+    footer-fontfamily: "QTDublinIrish.otf"
+    footer-align: "right"
+    footer-bottom: "9.5in"
+    date-style: "none"
+    bg-image-fading: "north"
+>>>>>>> 5789bed9538662d62fedaced47f1758466bdeeba
     keep-tex: true
     include-in-header:
       text: |
@@ -26,7 +47,8 @@ format:
 ---
 
 
-## YAML additions for themes
+
+\.[;## YAML additions for themes
 
 Some themes need some additional YAML information to work.
 
