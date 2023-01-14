@@ -2,11 +2,27 @@
 bibliography: references.bib
 format: 
   titlepage-pdf:
-    coverpage: true
-    cover-bg-image: "img//bridge.jpeg"
     documentclass: scrbook
     classoption: ["oneside", "open=any"]
     number-sections: true
+    toc: true
+    lof: true
+    lot: true
+    titlepage: "bg-image"
+    titlepage-bg-image: "img/corner-bg.png"
+    titlepage-logo: "img/logo.png"
+    titlepage-header: "The Publisher"
+    titlepage-footer: |
+      NOAA Fisheries OpenSci\
+      Tools for Open Science\
+      [https://github.com/nmfs-opensci](https://github.com/nmfs-opensci)\
+    coverpage: "great-wave"
+    keep-tex: true
+    include-in-header:
+      text: |
+        % delete. this is for the example w CZ diacritics
+        \usepackage{babel}
+        \babelprovide[import]{czech}
 ---
 
 
@@ -32,7 +48,6 @@ format:
       bg-image-location: "UL"
       bg-image-size: 0.5
 ```
-
 
 ## Document classes
 
