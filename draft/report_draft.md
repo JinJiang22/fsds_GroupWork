@@ -7,6 +7,7 @@ Under the serve impact of pandemic, there is a growing concern regarding the cha
 
 ### Recommendations
 
+<<<<<<< HEAD
 In order to quickly restore the London tourism market to pre-pandemic levels, the City of London must correct the direction of tourism promotion. It is necessary to develop and promote 1,157 open green spaces that London has that are not crowded. This will instill a sense of awareness among visitors to London that it is eco-friendly place and safe from contagious diseases that may come in the future.
 
 ## Research Design 
@@ -16,6 +17,15 @@ Recent report pointed out that outdoor attractions in UK has the strongest recov
 (2) Green Space
 As destination choice are greatly determined by perceived risk, destination-related preferences presented changes to favour nature-based destinations during times of crisis, which is also a phenomenon occurred after SARS (Li et al., 2020). An example is the reshaped tourists' destination preferences in Spain where tourists has more interest in visiting natural environments than urban destinations, due to they are perceived as lower-density environments for both domestic and international tourism (Donaire et al., 2021).         
 
+=======
+## Research Design 
+This study will analysis the tourists' preferences through comparative and regression analysis. The first two sections present the distribution of Airbnb booking listings before and after COVID-19 to observe the pattern and characteristics of listings in Greater London area. Geographically weighted regression analysis will then apply to Airbnb booking listings and several descriptive variables. The regression considers major post-COVID-19 preferences of tourists as independent variables:
+(1) Tourist Attractions
+Recent report pointed out that outdoor attractions in UK has the strongest recovery to pre- pandemic level in comparison with mixed sites and indoor sites, in which the most-visited attractions in 2021 are topped by park and gardens in London (Khomami, 2022). Under the influence of COVID-19, the spatial behaviour of tourists showed an increasing overall population in urban natural attractions, showing a stronger intention to visit urban green space (Gao, Y. et al., 2021).
+(2) Green Space
+As destination choice are greatly determined by perceived risk, destination-related preferences presented changes to favour nature-based destinations during times of crisis, which is also a phenomenon occurred after SARS (Li et al., 2020). An example is the reshaped tourists' destination preferences in Spain where tourists has more interest in visiting natural environments than urban destinations, due to they are perceived as lower-density environments for both domestic and international tourism (Donaire et al., 2021).         
+
+>>>>>>> 7634773d4c824c1a76ec82c3d25b7f69473ac295
 (3) Population
 The current health crisis leads to diminished preference for visiting crowded places when considering travel activities and hospitality options (Park et al., 2021). There is greater demand in holiday destinations that are less overcrowded to avoid places with greater capacity in attracting tourists (Orden-Mejía et al., 2022). 
 
