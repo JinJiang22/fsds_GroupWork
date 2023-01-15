@@ -1,11 +1,12 @@
 ## Short Summary
 ### Background 
-    
+
 Under the serve impact of pandemic, there is a growing concern regarding the changes of tourists' preferences after COVID-19, due to the difference in social values and priorities during pandemic era. Study in Guayaquil highlighted that participants do prefer to visit places that are less crowded and environmentally friendly, and only 7.3% of people do not have changes in travel attitude (Orden-Mejía et al., 2022). Reviewing the tourism in UK, in 2021 Tourism Recovery Plan, swift recovery to pre-pandemic levels is one of the objectives, while tourism industry is expected to contribute to the promotion and conservation of cultural and natural heritage (DCMS, 2021). This study aims to observe the changes in tourist preferences through studying the distribution of Airbnb listings in London before and after COVID-19 and provide a prediction for the future trend in tourism industry.
 
 ### Key Findings
 
 ### Recommendations
+In order to quickly restore the London tourism market to pre-pandemic levels, the City of London must correct the direction of tourism promotion. It is necessary to develop and promote 1,157 open green spaces that London has that are not crowded. This will instill a sense of awareness among visitors to London that it is eco-friendly place and safe from contagious diseases that may come in the future.
 
 ## Research Design 
 
@@ -22,11 +23,14 @@ Globally, the accommodation sharing sector is severely suffered from COVID-19 wi
 ## Prediction
 
 ## Conclusion
+
 ### Summary of our result 
+
 ### Policy Suggestion 
+
 When planning or establishing future London tourism plan policy, do not consider the outbreak of COVID-19 as a crisis in the tourism industry, but as an opportunity to develop resilient and sustainable tourism policies. The reason is that there is a high possibility that people around the world will be exposed to infectious diseases other than Covid-19 in the future. Also, from current UK government want to develop secondary destinations to spread the economic benefits whilst easing pressure on ‘honeypot’ attractions. We will propose tourism polices that take advantage of outskirts of London and open green spaces.  >> reference from uk https://www.visitbritain.org/sites/default/files/vb-corporate/sustainability_external_-_14th_oct.pdf
 First, from a sustainability point of view, attraction tourism using natural area outside London should be developed. This will be a good option for balanced regional development and epidemic control. It should be constructed in an unpopulated outlying area. For example, to create a British royal horseback riding experience center in a natural area in London outskirts.  >>reference from OECD https://www.oecd.org/coronavirus/policy-responses/rebuilding-tourism-for-the-future-covid-19-policy-responses-and-recovery-bced9859/
-Second, promote green open spaces in relation to large-scale events, such as the 2024 Paris Olympic. The City of London can collaboration with the city of Paris. Then both cities can promote safe and environmentally friendly travel through green and open space through two iconic parks (Tuileries Gardens and Hyde Park). >> reference from US 
+Second, promote green open spaces in relation to large-scale events, such as the 2024 Paris Olympic. The City of London can collaborate with the city of Paris. Then both cities can promote safe and environmentally friendly travel through green and open space through two iconic parks (Tuileries Gardens and Hyde Park). >> reference from US 
 https://www.commerce.gov/sites/default/files/2022-06/National-Travel-Tourism-Strategy.pdf
 These policies will strengthen the resilience of the London city’s tourism economy and better prepare it for future hazards. It will also consider how to encourage the dispersal of tourists and distribute the economic benefits of tourism all religions in London, including outskirts boroughs.
 
