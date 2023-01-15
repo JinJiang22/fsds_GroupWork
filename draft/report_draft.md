@@ -8,7 +8,16 @@ Under the serve impact of pandemic, there is a growing concern regarding the cha
 ### Recommendations
 
 ## Research Design 
+This study will analysis the tourists' preferences through comparative and regression analysis. The first two sections present the distribution of Airbnb booking listings before and after COVID-19 to observe the pattern and characteristics of listings in Greater London area. Geographically weighted regression analysis will then apply to Airbnb booking listings and several descriptive variables. The regression considers major post-COVID-19 preferences of tourists as independent variables:
+(1) Tourist Attractions
+Recent report pointed out that outdoor attractions in UK has the strongest recovery to pre- pandemic level in comparison with mixed sites and indoor sites, in which the most-visited attractions in 2021 are topped by park and gardens in London (Khomami, 2022). Under the influence of COVID-19, the spatial behaviour of tourists showed an increasing overall population in urban natural attractions, showing a stronger intention to visit urban green space (Gao, Y. et al., 2021).
+(2) Green Space
+As destination choice are greatly determined by perceived risk, destination-related preferences presented changes to favour nature-based destinations during times of crisis, which is also a phenomenon occurred after SARS (Li et al., 2020). An example is the reshaped tourists' destination preferences in Spain where tourists has more interest in visiting natural environments than urban destinations, due to they are perceived as lower-density environments for both domestic and international tourism (Donaire et al., 2021).         
 
+(3) Population
+The current health crisis leads to diminished preference for visiting crowded places when considering travel activities and hospitality options (Park et al., 2021). There is greater demand in holiday destinations that are less overcrowded to avoid places with greater capacity in attracting tourists (Orden-Mejía et al., 2022). 
+
+Lastly, with reference to our findings, suggestions on possible policies are proposed to promote tourism according to the current tourist preferences.
 
 ## Brief Review of the Evidence from London
 
@@ -33,16 +42,26 @@ These policies will strengthen the resilience of the London city’s tourism eco
 ## References
 Department for Digital, Culture, Media & Sport (2021). The Tourism Recovery Plan, pp.17.Avaliable at https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/992974/Tourism_Recovery_Plan__Web_Accessible_.pdf (AccessesL 12 Janurary 2023).
 
+Donaire, J.A., Galí, N. and Camprubi, R. (2021). 'Empty summer: International tourist behavior in spain during covid-19', _Sustainability (Switzerland)_, Vol. 13 No. 8, pp. 1– 14. 
+
 Ford, B. (2021) Airbnb expects regional boom; Report findings. National post (Toronto).
+
+Gao, Y. et al. (2021). 'Study on the impact of the covid-19 pandemic on the spatial behavior of urban tourists based on commentary big data: A case study of nanjing, china', _ISPRS international journal of geo-information_. 10 (10), 678–.
 
 Gerwe, O. (2021). 'The Covid-19 pandemic and the accommodation sharing sector: Effects and prospects for recovery', _Technological forecasting & social change_. 167120733–120733.
 
-Ivanova, M. et al. (2021). 'Travel behaviour after the pandemic: the case of Bulgaria', _Anatolia : an international journal of tourism and hospitality research_. 32 (1), 1–11.
+Park, I. et al. (2021). 'Impact of the COVID-19 pandemic on travelers’ preference for crowded versus non-crowded options', _Tourism Management_, Volume 87.
+
+Ivanova, M. et al. (2021). 'Travel behaviour after the pandemic: the case of Bulgaria', _Anatolia : an international journal of tourism and hospitality research_, 32 (1), 1–11.
+
+Khomami N. (2022), Outdoor UK attractions bouncing back best after pandemic restrictions, The Guardian. 
 
 La, L. et al. (2022). 'Location of Airbnb and hotels: the spatial distribution and relationships', _Tourism review (Association internationale d’experts scientifiques du tourisme)_, 77 (1), 209–224.
+
+Li, Z., Zhang, S., Liu, X., Kozak, M. and Wen, J. (2020). 'Seeing the invisible hand: Underlying effects of COVID-19 on tourists' behavioral patterns', _Journal of Destination Marketing and Management_, Elsevier Ltd, Vol. 18 No. May, p. 100502.
 
 Maxim, C. (2019). 'Challenges faced by world tourism cities - London’s perspective', _Current issues in tourism_, 22 (9), 1006–1024.
 
 Orden-Mejía, M. et al. (2022). 'Post-COVID-19 Tourists’ Preferences, Attitudes and Travel Expectations: A Study in Guayaquil, Ecuador', _International journal of environmental research and public health_, 19 (8), 4822–.
 
-Wang, J. (Feng) & Xia, L. (2021) Revenge travel: nostalgia and desire for leisure travel post COVID-19. Journal of travel & tourism marketing. [Online] 38 (9), 935–955.
+Wang, J. (Feng) & Xia, L. (2021) Revenge travel: nostalgia and desire for leisure travel post COVID-19. Journal of travel & tourism marketing. 38 (9), 935–955.
