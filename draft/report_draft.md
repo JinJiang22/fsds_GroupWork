@@ -7,7 +7,6 @@ Under the serve impact of pandemic, there is a growing concern regarding the cha
 
 ### Recommendations
 
-<<<<<<< HEAD
 In order to quickly restore the London tourism market to pre-pandemic levels, the City of London must correct the direction of tourism promotion. It is necessary to develop and promote 1,157 open green spaces that London has that are not crowded. This will instill a sense of awareness among visitors to London that it is eco-friendly place and safe from contagious diseases that may come in the future.
 
 ## Research Design 
