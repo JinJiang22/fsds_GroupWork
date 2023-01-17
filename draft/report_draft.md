@@ -5,6 +5,8 @@ Under the serve impact of pandemic, there is a growing concern regarding the cha
 
 ### Key Findings
 
+
+
 ### Recommendations
 
 In order to quickly restore the London tourism market to pre-pandemic levels, the City of London must correct the direction of tourism promotion. It is necessary to develop and promote 1,157 open green spaces that London has that are not crowded. This will instill a sense of awareness among visitors to London that it is eco-friendly place and safe from contagious diseases that may come in the future.
@@ -39,7 +41,21 @@ Globally, the accommodation sharing sector is severely suffered from COVID-19 wi
 
 ## Conclusion
 ### Summary of our result 
+
 ### Policy Suggestion 
+
+we consider that green spaces tourism should be an important part of a destination promotion,
+especially in those places where gardens and parks with historic value can be found. Nicolae
+Romanescu Park is the example that best illustrates this statement. Its importance for Craiova is
+related to its social and leisure function, appreciated by the citizens who acknowledge its cultural
+value. Yet, its image as a cultural tourism attraction is only vaguely mentioned in some guidebooks.
+Integrated to the urban green space system, together with other historic gardens and parks, N.
+Romanescu Park may become a decisive touristic site within cultural and thematic tourism circuits
+that should be promoted in Craiova. In the future, the tourism offer for Craiova will have to take
+into consideration the tourism function of green spaces if it intends to promote Craiova as a
+sustainable tourism destination. (GREEN SPACES AND URBAN TOURISM DEVELOPMENTIN CRAIOVA
+MUNICIPALITY IN ROMANIA)
+
 When planning or establishing future London tourism plan policy, do not consider the outbreak of COVID-19 as a crisis in the tourism industry, but as an opportunity to develop resilient and sustainable tourism policies. The reason is that there is a high possibility that people around the world will be exposed to infectious diseases other than Covid-19 in the future. Also, from current UK government want to develop secondary destinations to spread the economic benefits whilst easing pressure on ‘honeypot’ attractions. We will propose tourism polices that take advantage of outskirts of London and open green spaces. 
 reference from uk https://www.visitbritain.org/sites/default/files/vb-corporate/sustainability_external_-_14th_oct.pdf
 
