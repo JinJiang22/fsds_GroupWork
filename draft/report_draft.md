@@ -1,4 +1,5 @@
 ## Short Summary
+
 ### Background 
 
 Under the serve impact of pandemic, there is a growing concern regarding the changes of tourists' preferences after COVID-19, due to the difference in social values and priorities during pandemic era. Study in Guayaquil highlighted that participants do prefer to visit places that are less crowded and environmentally friendly, and only 7.3% of people do not have changes in travel attitude (Orden-Mejía et al., 2022). Reviewing the tourism in UK, in 2021 Tourism Recovery Plan, swift recovery to pre-pandemic levels is one of the objectives, while tourism industry is expected to contribute to the promotion and conservation of cultural and natural heritage (DCMS, 2021). This study aims to observe the changes in tourist preferences through studying the distribution of Airbnb listings in London before and after COVID-19 and provide a prediction for the future trend in tourism industry.
@@ -9,14 +10,15 @@ Under the serve impact of pandemic, there is a growing concern regarding the cha
 
 ### Recommendations
 
-In order to quickly restore the London tourism market to pre-pandemic levels, the City of London must correct the direction of tourism promotion. It is necessary to develop and promote 1,157 open green spaces that London has that are not crowded. This will instill a sense of awareness among visitors to London that it is eco-friendly place and safe from contagious diseases that may come in the future.
+With reference to the Tourism Recovery Plan and Sustainability Policy, two suggestions are proposed for the promotion of green space during policy planning. Assessment of cultural ecosystem service can be adopted for the conservation of historical and cultural green space, while festivals with event strategy can be considered during policy 
    
-## Research Design 
+## Research Design
+
 This study will analysis the tourists' preferences through comparative analysis. The first two sections present the distribution of Airbnb booking listings before and after COVID-19 to observe the pattern and characteristics of listings in Greater London area. Afterwards, further analysis will be done by comparing the spatial distribution between Airbnb listing and several variables to retrieve the similarity of pattern:<br/>
 (1) Tourist Attractions<br/>
-Recent report pointed out that outdoor attractions in UK has the strongest recovery to pre- pandemic level in comparison with mixed sites and indoor sites, in which the most-visited attractions in 2021 are topped by park and gardens in London (Khomami, 2022). Under the influence of COVID-19, the spatial behaviour of tourists showed an increasing overall population in urban natural attractions, showing a stronger intention to visit urban green space (Gao, Y. et al., 2021).<br/>
+Recent report pointed out that outdoor attractions in UK has the strongest recovery to pre- pandemic level in comparison with mixed sites and indoor sites, in which the most-visited attractions in 2021 are topped by park and gardens in London (Khomami, 2022). Under the influence of COVID-19, the spatial behaviour of tourists showed an increasing overall population in urban natural attractions, showing a stronger intention to visit urban green space (Gao, Y. et al., 2021). <br/>
 (2) Green Space<br/>
-As destination choice are greatly determined by perceived risk, destination-related preferences presented changes to favour nature-based destinations during times of crisis, which is also a phenomenon occurred after SARS (Li et al., 2020). An example is the reshaped tourists' destination preferences in Spain where tourists has more interest in visiting natural environments than urban destinations, due to they are perceived as lower-density environments for both domestic and international tourism (Donaire et al., 2021).<br/>         
+As destination choice are greatly determined by perceived risk, destination-related preferences presented changes to favour nature-based destinations during times of crisis, which is also a phenomenon occurred after SARS (Li et al., 2020). An example is the reshaped tourists' destination preferences in Spain where tourists has more interest in visiting natural environments than urban destinations, due to they are perceived as lower-density environments for both domestic and international tourism (Donaire et al., 2021).       
 (3) Population:<br/>
 The current health crisis leads to diminished preference for visiting crowded places when considering travel activities and hospitality options (Park et al., 2021). There is greater demand in holiday destinations that are less overcrowded to avoid places with greater capacity in attracting tourists (Orden-Mejía et al., 2022). 
 
@@ -34,9 +36,12 @@ Globally, the accommodation sharing sector is severely suffered from COVID-19 wi
 
 ## Conclusion
 
-### Summary of our result 
+### Summary of Result
+
 This study presented that the post-COVID-19 perferences of tourist switched from visitng popular and crowded London attractions in inner London area to natural-based destinations in outer London area.
-### Policy Suggestion 
+
+### Policy Suggestion
+
 The result indicated that the trend of tourist intention will be focusing on natural attractions after the pandemic and has great potential for developing local tourism regarding green spaces. This trend corresponds to the proposed future targets in VisitBritain/ VisitEngland’s Sustainability Policy regarding to its principal in promoting sustainable and responsible tourism. One of the objectives in the policy is to encourage dispersal of tourists and distributes the economic benefits of tourism nationally through developing secondary destinations and increasing the overnight stays of tourists in these destinations (VisitBritain & VisitEngland, 2021). Therefore, several approaches will be proposed to promote tourism in natural attractions, especially for secondary destinations.
 
 First, green spaces tourism can be achieved by destination promotion on green space with historic and cultural value. Similar policy is suggested by Cianga & Popescu (2013) for Nicolae Romanescu Park in Romania, where historic gardens and parks can integrate urban green space with thematic tourism circuits to become a decisive attraction. In the context of the UK, rapid assessment of cultural ecosystem services can be done for green space in secondary destinations to ensure the conservation and maintenance of parks and gardens with historical and cultural values, which presence importance for the creation of cultural memory (Jones et al., 2020).
@@ -47,6 +52,7 @@ These suggestions considers the concerns of cultural, natural and historical con
 
 
 ## References
+
 Department for Digital, Culture, Media & Sport (2021). The Tourism Recovery Plan, pp.17.Avaliable at https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/992974/Tourism_Recovery_Plan__Web_Accessible_.pdf (AccessesL 12 Janurary 2023).
 
 Donaire, J.A., Galí, N. and Camprubi, R. (2021). 'Empty summer: International tourist behavior in spain during covid-19', _Sustainability (Switzerland)_, Vol. 13 No. 8, pp. 1– 14. 
