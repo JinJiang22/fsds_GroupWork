@@ -31,24 +31,16 @@ Offering a great variety of attractions, tourism is the second most vital sector
 
 Globally, the accommodation sharing sector is severely suffered from COVID-19 with a significant decreased demand in bookings on Airbnb across regions and the effect is often location-specific, especially for Airbnb's biggest destinations in 2019 like London and Toronto (Ford, 2021; Gerwe, 2021). However, studies showed that people are ready to restart travelling and optimistic about returning to their travel habit despite having health-related concerns (Ivanova et al., 2021).The phenomenon of revenge travel is expected to occur post COVID-19, which describe the intensified desire and demand for leisure travel after the regulations and lockdowns during the pandemic (Wang & Xia, 2021). Other than the raising travel intentions, tourist also present changes in travel preferences to search for destinations that are less crowded and environmentally friendly (Orden-Mejía et al., 2022). 
 
-## Prediction
 
 ## Conclusion
+
 ### Summary of our result 
 
 ### Policy Suggestion 
+The above sections presented that the post-COVID-19 perferences of tourist switched from visitng popular and crowded London attractions in inner London area to natural-based destinations in outer London area. The result indicated that the trend of tourist intention will be focusing on natural attractions after the pandemic and has great potential for developing local tourism regarding green spaces. This trend correspond to the proposed future targets in VisitBritain/ VisitEngland’s Sustainability Policy regarding to its principal in promoting sustainable and responsible tourism. One of the objectives in the policy is to encourage dispersal of tourists and distributes the economic benefits of tourism nationally through developing secondary destinations and increasing the overnight stays of tourists in 
 
-we consider that green spaces tourism should be an important part of a destination promotion,
-especially in those places where gardens and parks with historic value can be found. Nicolae
-Romanescu Park is the example that best illustrates this statement. Its importance for Craiova is
-related to its social and leisure function, appreciated by the citizens who acknowledge its cultural
-value. Yet, its image as a cultural tourism attraction is only vaguely mentioned in some guidebooks.
-Integrated to the urban green space system, together with other historic gardens and parks, N.
-Romanescu Park may become a decisive touristic site within cultural and thematic tourism circuits
-that should be promoted in Craiova. In the future, the tourism offer for Craiova will have to take
-into consideration the tourism function of green spaces if it intends to promote Craiova as a
-sustainable tourism destination. (GREEN SPACES AND URBAN TOURISM DEVELOPMENTIN CRAIOVA
-MUNICIPALITY IN ROMANIA)
+we consider that green spaces tourism should be an important part of a destination promotion, especially in those places where gardens and parks with historic value can be found. Nicolae Romanescu Park is the example that best illustrates this statement. Its importance for Craiova is related to its social and leisure function, appreciated by the citizens who acknowledge its cultural value. Yet, its image as a cultural tourism attraction is only vaguely mentioned in some guidebooks.
+Integrated to the urban green space system, together with other historic gardens and parks, N. Romanescu Park may become a decisive touristic site within cultural and thematic tourism circuits that should be promoted in Craiova. In the future, the tourism offer for Craiova will have to take into consideration the tourism function of green spaces if it intends to promote Craiova as a sustainable tourism destination. (GREEN SPACES AND URBAN TOURISM DEVELOPMENTIN CRAIOVA MUNICIPALITY IN ROMANIA)
 
 When planning or establishing future London tourism plan policy, do not consider the outbreak of COVID-19 as a crisis in the tourism industry, but as an opportunity to develop resilient and sustainable tourism policies. The reason is that there is a high possibility that people around the world will be exposed to infectious diseases other than Covid-19 in the future. Also, from current UK government want to develop secondary destinations to spread the economic benefits whilst easing pressure on ‘honeypot’ attractions. We will propose tourism polices that take advantage of outskirts of London and open green spaces. 
 reference from uk https://www.visitbritain.org/sites/default/files/vb-corporate/sustainability_external_-_14th_oct.pdf
