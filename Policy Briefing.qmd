@@ -1,0 +1,106 @@
+---
+bibliography: FSDS-PolicyBriefing.bib
+csl: harvard-cite-them-right.csl
+title: Understanding the Post COVID-19 Tourists’ Preferences for UK Tourism Development
+format:
+  pdf:
+    include-in-header:
+      text: |
+        \addtokomafont{disposition}{\rmfamily}
+    mainfont: "Spectral"
+    sansfont: "Roboto"
+    monofont: "Inconsolata"
+    papersize: a4
+    geometry:
+      - top=25mm
+      - left=35mm
+      - right=30mm
+      - bottom=25mm
+      - heightrounded
+    toc: false
+    number-sections: true
+    colorlinks: true
+    highlight-style: github
+---
+
+## Short Summary
+### Background 
+
+Under the severe impact of the pandemic, there is a growing concern regarding the changes of tourists' preferences after COVID-19, due to the difference in social values and priorities during the pandemic era. Study in Guayaquil highlighted that participants do prefer to visit places that are less crowded and environmentally friendly, and only 7.3% of people do not have changes in travel attitude [@orden-mejia_post-covid-19_2022]. Reviewing tourism in the UK, in 2021 Tourism Recovery Plan, swift recovery to pre-pandemic levels is one of the objectives, while tourism industry is expected to contribute to the promotion and conservation of cultural and natural heritage [@noauthor_tourism_2021]. This study aims to observe the changes in tourist preferences through studying the distribution of Airbnb listings in London before and after COVID-19 and provide a comparative analysis with related characteristics.
+
+### Key Findings
+There is a movement of tourist’s preference from dense locations in the city central towards less crowded areas after COVID-19.
+Airbnb listings in Outer London underwent an overall increase in occupancy rate after the pandemic, and Airbnb listings in Inner London are on the contrary.
+The tourism attractions are less likely to be the point of interest for tourists since the pandemic.
+
+### Recommendations
+
+With reference to the Tourism Recovery Plan and Sustainability Policy, two suggestions are proposed for the promotion of green space during policy planning. Assessment of cultural ecosystem service can be adopted for the conservation of historical and cultural green space, while festivals with event strategy can be considered in policy documents.
+   
+## Research Design 
+This study will analyse the tourists' preferences through comparative analysis. The first section presents the distribution of Airbnb booking listings before and after COVID-19 to observe the pattern and characteristics of listings in the Greater London area. Afterwards, with the assumption of no data variation for green space, tourist attractions and population density between 2019 and 2022, further analysis will be done by comparing the spatial distribution between Airbnb listing and several variables to retrieve the similarity of pattern:<br/>
+
+(1) The Occupancy Rate of Airbnb Listing<br/>
+The Occupancy Model from Inside Airbnb, which originated from the San Francisco Planning Department and was used to determine the impact of Airbnb to housing, is used to estimate how frequently an Airbnb listing is rented out in this study[@airbnb_data_nodate]. It is our indicator of tourists’ preferences in the context of the rental market.<br/>
+
+(2) Tourist Attractions<br/>
+Recent report pointed out that outdoor attractions in the UK has the strongest recovery to pre- pandemic level in comparison with mixed sites and indoor sites, in which the most-visited attractions in 2021 are topped by park and gardens in London [@khomami_outdoor_2022]. Under the influence of COVID-19, the spatial behaviour of tourists showed an increasing overall population in urban natural attractions, showing a stronger intention to visit urban green space [@gao_study_2021].<br/>
+(3) Green Space<br/>
+As destination choices are greatly determined by perceived risk, destination-related preferences presented changes to favour nature-based destinations during times of crisis, which is also a phenomenon that occurred after SARS [@li_seeing_2020]. An example is the reshaped tourists' destination preferences in Spain where tourists have more interest in visiting natural environments than urban destinations, due to they are perceived as lower-density environments for both domestic and international tourism [@donaire_empty_2021].
+(4) Population<br/>
+The current health crisis leads to diminished preference for visiting crowded places when considering travel activities and hospitality options [@park_impact_2021]. There is greater demand in holiday destinations that are less overcrowded to avoid places with greater capacity in attracting tourists [@orden-mejia_post-covid-19_2022]. 
+
+Lastly, with reference to our findings, suggestions on possible policies are proposed to promote tourism according to the current tourist preferences.
+\newpage
+
+## Brief Review of the Evidence from London 
+
+![Average Occupancy Rate of Airbnb Listings in London by Ward 2019 and 2022](fig1.png)
+
+The differing average occupancy rate between 2019 and 2022 is shown in Figure 1. In general, wards with higher Airbnb occupancy rates tend to be located in the centre of Greater London in 2019, with areas in Outer London having lower occupancy rates. The median value of estimated occupancy rate of Airbnb listings in 2019 is around 22.7%. In 2022, the overall occupancy rate decreased significantly, with a median of 11.1% and a maximum of  35.3%. More noticeable changes from 2019 to 2022 are the presence of relatively high occupancy Airbnb listings in Outer London and a more discrete spatial distribution of listings based on occupancy.
+
+Offering a great variety of attractions, tourism is the second most vital sector to the economy of London that has attracted both international and domestic visitors in the past decades, where a fifth of total national stock of hotel bedrooms are located in the city and contributes to 12% to London's GDP [@maxim_challenges_2017]. On the other hand, an explosive growth of Airbnb listings was observed between 2015 to 2019. According to @la_location_2021, Airbnb rentals showed centre-periphery characteristics by concentrating in the outer range of innermost CBD and varies according to the distance to centre, demonstrating spatial agglomeration in distribution. 
+\newpage
+
+## Post-COVID-19 Tourist Preferences in London
+
+![Change of Average Occupancy Rate Pre and Post COVID19, Total of Green Space, Population Density, and Total of Tourism Attraction in London by Ward](fig2.png)
+
+Figure 2 generally indicates the changes in occupancy rate as the parameter to see the tourist’s preference pre and post COVID-19 and compare it to other three variables that might have significant effect on the preference changes, which are green space, population density, and tourism attractions. Areas like Chase, Coulsdon East, Thames, and Darwin are the evidence of the shifting of tourist’s preferences after COVID-19. Most of the tourists booked the listings towards more open space locations. The Central London area impacted the most of these changes as it is described by the figure that there is a movement from dense locations in the city centre towards less crowded areas, such as Havering Park, Thamesmead East, Harrow Weald, and Chessington South. The tourism attractions are also less likely to be the point of interest of tourists since the pandemic. It is shown by the figure that Airbnb listings in areas with a high number of tourism attractions, such as Regent’s Park, St. James’s and Bishop’s.
+
+Globally, the accommodation sharing sector is severely suffering from COVID-19 with a significant decreased demand in bookings on Airbnb across regions and the effect is often location-specific, especially for Airbnb's biggest destinations in 2019 like London and Toronto (@ford_airbnb_2021 cited in @gerwe_covid-19_2021). However, studies showed that people are ready to restart travelling and optimistic about returning to their travel habit despite having health-related concerns [@ivanova_travel_2021]. The phenomenon of revenge travel is expected to occur post COVID-19, which describes the intensified desire and demand for leisure travel after the regulations and lockdowns during the pandemic [@wang_revenge_2021]. Other than the rising travel intentions, tourists also present changes in travel preferences to search for destinations that are less crowded and environmentally friendly [@orden-mejia_post-covid-19_2022]. 
+\newpage
+
+## Conclusion
+
+### Summary of Result 
+This study provide an overview the changes of post-COVID-19 tourists’ preferences by comparing the difference in average occupancy rate of Airbnb listings in London in 2019 and 2022, and the derived changes is included in the comparative analysis with total of green space, population density and total of tourist attraction,
+
+The results reveal that there is a presence of relatively high occupancy Airbnb listings in Outer London for the changes between 2019 and 2022. Moreover, the preferences of tourists switched from visiting popular and crowded London attractions in the inner London area to natural-based destinations in the outer London area.
+
+### Policy Suggestion 
+The result indicated that the trend of tourist intention will be focusing on natural attractions after the pandemic and has great potential for developing local tourism regarding green spaces. This trend corresponds to the proposed future targets in VisitBritain/ VisitEngland’s Sustainability Policy regarding its principle in promoting sustainable and responsible tourism. One of the objectives in the policy is to encourage dispersal of tourists and distribute the economic benefits of tourism nationally through developing secondary destinations and increasing the overnight stays of tourists in these destinations (VisitBritain & VisitEngland, 2021). Therefore, several approaches will be proposed to promote tourism in natural attractions, especially for secondary destinations.
+
+First, green spaces tourism can be achieved by destination promotion on green space with historic and cultural value. Similar policy is suggested by Cianga & Popescu (2013) for Nicolae Romanescu Park in Romania, where historic gardens and parks can integrate urban green space with thematic tourism circuits to become a decisive attraction. In the context of the UK, rapid assessment of cultural ecosystem services can be done for green space in secondary destinations to ensure the conservation and maintenance of parks and gardens with historical and cultural values, which present importance for the creation of cultural memory [@jones_placebased_2020].
+
+Second, green spaces can also be promoted by organising large-scale events to attract domestic and international visitors. For example, festivals are a good medium for cultural production, distribution and consumption through creating unusual opportunities for engagement and interaction in activities [@quinn_festivals_2021]. Large scale events in open green space can provide platforms that facilitate social engagement and cultural inclusion. Thus, wards in London can put explicit attention on festivals with event strategy for the promotion of green space during policy planning.
+
+These suggestions consider the concerns of cultural, natural and historical conservation in the Tourism Recovery Plan and could be a great starting point for boosting the post-COVID-19 tourism industry.
+
+### Limitation and Further Study
+**Limitation**</b>
+
+Several limitations are presented in this study regarding the adopted data source and methodology.
+
+The occupancy rate is an estimation based on the occupancy model, of which review rate, number of reviews counted, and average length of stay would all affect the model’s results. In this study, the average length of stay was set as 5.3 days according to related reports before the pandemic. However, the situation in 2022 might be different. We suspect that this figure should be more conservative until tourism recovers to the pre-epidemic levels.
+
+For the tourist attraction scraped from Open Street Map, the retrieved data presents uncertainty in the accuracy data. As Open Street Map is a community driven platform that based on the contribution of mapper to provide open data, the accuracy of attraction data points is not consistent as the accuracy of digitisation and information is highly relied on the contributor, leading to human errors that are hard to estimate and quantify in research.
+
+**Further Study**</b>
+
+Further studies could be conducted based on the inspiration of this work. For example, the relationships between green space, population density and tourists’ preferences are worth to present further exploration for testing and verifying the interactions among them and other related socio-economic factors. For example, more advanced analysis like weighted regression or autocorrelation methods can be applied to quantify and predict the performance of variables. 
+
+In addition, the observed time period in this study may not provide a definite result with sufficient support of evidence. For changes in occupancy rate, the average Airbnb occupancy rate can be observed over a more continuous period of time, to strengthen our conclusion that there is a significant difference in change of occupancy rate between outer and inner areas of London. For the analysis between occupancy rate and related factors, the result can be optimised by deriving the difference between 2019 and 2022 for all related factors for achieving a more comparable analysis with the occupancy rate.
+\newpage
+
+## References
